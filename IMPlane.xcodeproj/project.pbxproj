@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50642722860F56F00C26DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50642712860F56F00C26DB8 /* AppDelegate.swift */; };
+		F50642742860F57000C26DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50642732860F57000C26DB8 /* Assets.xcassets */; };
+		F50642772860F57000C26DB8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50642752860F57000C26DB8 /* MainMenu.xib */; };
+		F50642822860F57000C26DB8 /* IMPlaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50642812860F57000C26DB8 /* IMPlaneTests.swift */; };
+		F506428C2860F57000C26DB8 /* IMPlaneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506428B2860F57000C26DB8 /* IMPlaneUITests.swift */; };
+		F506428E2860F57000C26DB8 /* IMPlaneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506428D2860F57000C26DB8 /* IMPlaneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F506427E2860F57000C26DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50642662860F56F00C26DB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F506426D2860F56F00C26DB8;
+			remoteInfo = IMPlane;
+		};
+		F50642882860F57000C26DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50642662860F56F00C26DB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F506426D2860F56F00C26DB8;
+			remoteInfo = IMPlane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F506426E2860F56F00C26DB8 /* IMPlane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMPlane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50642712860F56F00C26DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F50642732860F57000C26DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F50642762860F57000C26DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F50642782860F57000C26DB8 /* IMPlane.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IMPlane.entitlements; sourceTree = "<group>"; };
+		F506427D2860F57000C26DB8 /* IMPlaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMPlaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50642812860F57000C26DB8 /* IMPlaneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMPlaneTests.swift; sourceTree = "<group>"; };
+		F50642872860F57000C26DB8 /* IMPlaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMPlaneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506428B2860F57000C26DB8 /* IMPlaneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMPlaneUITests.swift; sourceTree = "<group>"; };
+		F506428D2860F57000C26DB8 /* IMPlaneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMPlaneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F506426B2860F56F00C26DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F506427A2860F57000C26DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50642842860F57000C26DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F50642652860F56F00C26DB8 = {
+			isa = PBXGroup;
+			children = (
+				F50642702860F56F00C26DB8 /* IMPlane */,
+				F50642802860F57000C26DB8 /* IMPlaneTests */,
+				F506428A2860F57000C26DB8 /* IMPlaneUITests */,
+				F506426F2860F56F00C26DB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F506426F2860F56F00C26DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F506426E2860F56F00C26DB8 /* IMPlane.app */,
+				F506427D2860F57000C26DB8 /* IMPlaneTests.xctest */,
+				F50642872860F57000C26DB8 /* IMPlaneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50642702860F56F00C26DB8 /* IMPlane */ = {
+			isa = PBXGroup;
+			children = (
+				F50642712860F56F00C26DB8 /* AppDelegate.swift */,
+				F50642732860F57000C26DB8 /* Assets.xcassets */,
+				F50642752860F57000C26DB8 /* MainMenu.xib */,
+				F50642782860F57000C26DB8 /* IMPlane.entitlements */,
+			);
+			path = IMPlane;
+			sourceTree = "<group>";
+		};
+		F50642802860F57000C26DB8 /* IMPlaneTests */ = {
+			isa = PBXGroup;
+			children = (
+				F50642812860F57000C26DB8 /* IMPlaneTests.swift */,
+			);
+			path = IMPlaneTests;
+			sourceTree = "<group>";
+		};
+		F506428A2860F57000C26DB8 /* IMPlaneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F506428B2860F57000C26DB8 /* IMPlaneUITests.swift */,
+				F506428D2860F57000C26DB8 /* IMPlaneUITestsLaunchTests.swift */,
+			);
+			path = IMPlaneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F506426D2860F56F00C26DB8 /* IMPlane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50642912860F57000C26DB8 /* Build configuration list for PBXNativeTarget "IMPlane" */;
+			buildPhases = (
+				F506426A2860F56F00C26DB8 /* Sources */,
+				F506426B2860F56F00C26DB8 /* Frameworks */,
+				F506426C2860F56F00C26DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMPlane;
+			productName = IMPlane;
+			productReference = F506426E2860F56F00C26DB8 /* IMPlane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F506427C2860F57000C26DB8 /* IMPlaneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50642942860F57000C26DB8 /* Build configuration list for PBXNativeTarget "IMPlaneTests" */;
+			buildPhases = (
+				F50642792860F57000C26DB8 /* Sources */,
+				F506427A2860F57000C26DB8 /* Frameworks */,
+				F506427B2860F57000C26DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F506427F2860F57000C26DB8 /* PBXTargetDependency */,
+			);
+			name = IMPlaneTests;
+			productName = IMPlaneTests;
+			productReference = F506427D2860F57000C26DB8 /* IMPlaneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F50642862860F57000C26DB8 /* IMPlaneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50642972860F57000C26DB8 /* Build configuration list for PBXNativeTarget "IMPlaneUITests" */;
+			buildPhases = (
+				F50642832860F57000C26DB8 /* Sources */,
+				F50642842860F57000C26DB8 /* Frameworks */,
+				F50642852860F57000C26DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50642892860F57000C26DB8 /* PBXTargetDependency */,
+			);
+			name = IMPlaneUITests;
+			productName = IMPlaneUITests;
+			productReference = F50642872860F57000C26DB8 /* IMPlaneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50642662860F56F00C26DB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F506426D2860F56F00C26DB8 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					F506427C2860F57000C26DB8 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = F506426D2860F56F00C26DB8;
+					};
+					F50642862860F57000C26DB8 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = F506426D2860F56F00C26DB8;
+					};
+				};
+			};
+			buildConfigurationList = F50642692860F56F00C26DB8 /* Build configuration list for PBXProject "IMPlane" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F50642652860F56F00C26DB8;
+			productRefGroup = F506426F2860F56F00C26DB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F506426D2860F56F00C26DB8 /* IMPlane */,
+				F506427C2860F57000C26DB8 /* IMPlaneTests */,
+				F50642862860F57000C26DB8 /* IMPlaneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F506426C2860F56F00C26DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50642742860F57000C26DB8 /* Assets.xcassets in Resources */,
+				F50642772860F57000C26DB8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F506427B2860F57000C26DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50642852860F57000C26DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F506426A2860F56F00C26DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50642722860F56F00C26DB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50642792860F57000C26DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50642822860F57000C26DB8 /* IMPlaneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50642832860F57000C26DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F506428C2860F57000C26DB8 /* IMPlaneUITests.swift in Sources */,
+				F506428E2860F57000C26DB8 /* IMPlaneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F506427F2860F57000C26DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F506426D2860F56F00C26DB8 /* IMPlane */;
+			targetProxy = F506427E2860F57000C26DB8 /* PBXContainerItemProxy */;
+		};
+		F50642892860F57000C26DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F506426D2860F56F00C26DB8 /* IMPlane */;
+			targetProxy = F50642882860F57000C26DB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F50642752860F57000C26DB8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50642762860F57000C26DB8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F506428F2860F57000C26DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F50642902860F57000C26DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F50642922860F57000C26DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IMPlane/IMPlane.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kekeho.inputmethod.IMPlane.IMPlane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F50642932860F57000C26DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IMPlane/IMPlane.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kekeho.inputmethod.IMPlane.IMPlane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F50642952860F57000C26DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kekeho.inputmethod.IMPlane.IMPlaneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMPlane.app/Contents/MacOS/IMPlane";
+			};
+			name = Debug;
+		};
+		F50642962860F57000C26DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kekeho.inputmethod.IMPlane.IMPlaneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMPlane.app/Contents/MacOS/IMPlane";
+			};
+			name = Release;
+		};
+		F50642982860F57000C26DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kekeho.inputmethod.IMPlane.IMPlaneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IMPlane;
+			};
+			name = Debug;
+		};
+		F50642992860F57000C26DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kekeho.inputmethod.IMPlane.IMPlaneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = IMPlane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F50642692860F56F00C26DB8 /* Build configuration list for PBXProject "IMPlane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F506428F2860F57000C26DB8 /* Debug */,
+				F50642902860F57000C26DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50642912860F57000C26DB8 /* Build configuration list for PBXNativeTarget "IMPlane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50642922860F57000C26DB8 /* Debug */,
+				F50642932860F57000C26DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50642942860F57000C26DB8 /* Build configuration list for PBXNativeTarget "IMPlaneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50642952860F57000C26DB8 /* Debug */,
+				F50642962860F57000C26DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50642972860F57000C26DB8 /* Build configuration list for PBXNativeTarget "IMPlaneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50642982860F57000C26DB8 /* Debug */,
+				F50642992860F57000C26DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F50642662860F56F00C26DB8 /* Project object */;
+}
