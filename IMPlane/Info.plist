@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>InputMethodConnectionName</key>
+	<string>net.kekeho.inputmethod.IMPlane_Connection</string>
+	<key>InputMethodServerControllerClass</key>
+	<string>IMPlaneController</string>
+	<key>TISInputSourceID</key>
+	<string>net.kekeho.inputmethod.IMPlane</string>
+	<key>com.apple.security.temporary-exception.mach-register.global-name</key>
+	<string>net.kekeho.inputmethod.IMPlane_Connection</string>
+	<key>tsInputMethodCharacterRepertoireKey</key>
+	<array>
+		<string>Latn</string>
+	</array>
+</dict>
+</plist>

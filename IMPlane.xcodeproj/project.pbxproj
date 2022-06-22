@@ -43,6 +43,7 @@
 		F50642872860F57000C26DB8 /* IMPlaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMPlaneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F506428B2860F57000C26DB8 /* IMPlaneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMPlaneUITests.swift; sourceTree = "<group>"; };
 		F506428D2860F57000C26DB8 /* IMPlaneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMPlaneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F506429A286199AF00C26DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 		F50642702860F56F00C26DB8 /* IMPlane */ = {
 			isa = PBXGroup;
 			children = (
+				F506429A286199AF00C26DB8 /* Info.plist */,
 				F50642712860F56F00C26DB8 /* AppDelegate.swift */,
 				F50642732860F57000C26DB8 /* Assets.xcassets */,
 				F50642752860F57000C26DB8 /* MainMenu.xib */,
@@ -419,6 +421,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IMPlane/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -426,7 +429,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.kekeho.inputmethod.IMPlane.IMPlane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -444,6 +447,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IMPlane/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -451,7 +455,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.kekeho.inputmethod.IMPlane.IMPlane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
